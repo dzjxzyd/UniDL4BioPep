@@ -88,7 +88,7 @@ print(y_test.shape)
 ```
 ### Further model tuning and modifications
 
-Feel free to make your personalized modifications. Just scroll down to the model architecture sections and make revisions to fit your expection.
+Feel free to make your personalized modifications. Just scroll down to the model architecture sections and make revisions to fit your expectation.
 
 In my experiments, this architecture seems quite good and you might need to take a big change to make something different if you want. 
 
