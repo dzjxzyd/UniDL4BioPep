@@ -1,7 +1,8 @@
 # UniDL4BioPep
 
-### The implementation of the paper UniDL4BioPep: A universal deep learning model architecture for transfer learning in bioactive peptide classification modeling
+### The implementation of the paper UniDL4BioPep: UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity
 
+Notice: The model can also be used for multiclass classificaiton(we adopt softmax function at the last output layer.).
 
 ## Requirements
 The majoy dependencies used in this project are as following:
