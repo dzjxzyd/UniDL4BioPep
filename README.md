@@ -2,6 +2,8 @@
 
 ### The implementation of the paper UniDL4BioPep: UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity
 
+Notice:  We add an advanced version employing focal loss function for imbalanced dataset.
+
 Notice: The model can also be used for multiclass classificaiton(we adopt softmax function at the last output layer).
 
 Updates: The webserver of the advanced 24 model are available at https://ecp2jxachm.us-east-1.awsapprunner.com; Webserver development repository are available at UniDL4BioPep_webserver https://github.com/dzjxzyd/UniDL4BioPep_webserver. 
