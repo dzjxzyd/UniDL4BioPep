@@ -2,7 +2,9 @@
 
 ### The implementation of the paper UniDL4BioPep: UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity
 
-Updates:  We add an advanced version employing focal loss function for imbalanced dataset.
+Updates:  We add an advanced version (UniDL4BioPep-FL) employing focal loss function for imbalanced dataset.
+
+Usage of UniDL4BioPep-FL: Please selelct your minority group as positive group (labeled as 1) and majority group as negative group (labeled as 0); suggestions for hyparameter tunning: gamma(0,1,2,3,4,5) and pos_weight (,0.1,0.2,...1.0) or no need to speficfy pos_weight. 
 
 Notice: The model can also be used for multiclass classificaiton(we adopt softmax function at the last output layer).
 
