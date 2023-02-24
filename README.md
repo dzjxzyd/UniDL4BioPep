@@ -27,6 +27,7 @@ numpy 1.21.6
 scikit-learn 1.0.2
 tensorflow 2.9.2
 torch 1.13.0+cu116
+focal-loss
 ```
 More detailed python libraries used in this project are referred to ```requirements.txt```. 
 All the implementation can be down in Google Colab and all you need is just a browser and a google account.
