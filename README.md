@@ -35,7 +35,7 @@ Install all the above packages by ```!pip install package_name==2.0.0```
 
 
 ## Usage
-Notice: all my dataset use 0 and 1 to represent positive and negative, respectively. Again, 0 is positive and 1 is negative. 
+Notice: all my dataset use 0 and 1 to represent positive and negative, respectively. Again, 0 is positive and 1 is negative, except the antioxidant dataset and antimicrobial dataset (AMP). 
 ### Use the pretrained model for your own dataset
 
 Just check the file **Pretrained_model_usage_template.ipynb**
