@@ -2,13 +2,15 @@
 
 ### The implementation of the paper UniDL4BioPep: UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity
 
+Updates: Xingjian Ding release the PyTorch version of UniDL4BioPep (https://github.com/David-Dingle/UniDL4BioPep_ASL_PyTorch). This methods employed another loss function (asymmetric loss function, modified version of Focal loss function), which have the ability to conduct tunning both positive and negative sides at the same time.
+
 Updates:  We add an advanced version (UniDL4BioPep-FL) employing focal loss function for imbalanced dataset and a template for your usage (UniDL4BioPep_FL_template_for_other_bioactivity.ipynb).
 
 Usage of UniDL4BioPep-FL: Please selelct your minority group as positive group (labeled as 1) and majority group as negative group (labeled as 0); suggestions for hyparameter tunning: gamma(0,1,2,3,4,5) and pos_weight (,0.1,0.2,...1.0) or no need to speficfy pos_weight. 
 
 Notice: The model can also be used for multiclass classificaiton(we adopt softmax function at the last output layer).
 
-Updates: The webserver of the advanced 24 model are available at https://ecp2jxachm.us-east-1.awsapprunner.com; Webserver development repository are available at UniDL4BioPep_webserver https://github.com/dzjxzyd/UniDL4BioPep_webserver. 
+Updates: The webserver of the advanced 26 model are available at https://nepc2pvmzy.us-east-1.awsapprunner.com/; Webserver development repository are available at UniDL4BioPep_webserver https://github.com/dzjxzyd/UniDL4BioPep_web_server. 
 
 **Notice: UniDL4BioPep ONLY freely available for academic research; for commercial usage, please contact us**
 
