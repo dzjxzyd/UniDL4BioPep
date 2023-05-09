@@ -1,4 +1,4 @@
-# UniDL4BioPep
+# [UniDL4BioPep](https://nepc2pvmzy.us-east-1.awsapprunner.com/)
 
 ### The implementation of the paper  [Du, Z., Ding, X., Xu, Y., & Li, Y. (2023).UniDL4BioPep: a universal deep learning architecture for binary classification in peptide bioactivity. Briefings in Bioinformatics, bbad135.](https://www.researchgate.net/publication/369832351_UniDL4BioPep_a_universal_deep_learning_architecture_for_binary_classification_in_peptide_bioactivity)
 Updates: Xingjian Ding release the PyTorch version of [UniDL4BioPep-ASL](https://github.com/David-Dingle/UniDL4BioPep_ASL_PyTorch). This methods employed another loss function (asymmetric loss function, modified version of Focal loss function), which have the ability to conduct tunning both positive and negative sides at the same time.
