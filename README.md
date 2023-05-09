@@ -13,7 +13,7 @@ Notice: The model can also be used for multiclass classificaiton(we adopt softma
 
 Updates: The webserver of the advanced 26 model are available at https://nepc2pvmzy.us-east-1.awsapprunner.com/; Webserver development repository are available at UniDL4BioPep_webserver https://github.com/dzjxzyd/UniDL4BioPep_web_server. 
 
-**Notice: UniDL4BioPep ONLY freely available for academic research; for commercial usage, please contact us**, zhenjiao@ksu.edu; xjding@ksu.edu; yonghui@ksu.edu;
+**Notice: UniDL4BioPep is ONLY freely available for academic research; for commercial usage, please contact us**, zhenjiao@ksu.edu; xjding@ksu.edu; yonghui@ksu.edu;
 
 If the contents are useful to you, Please kindly Star it and Cite it.
 Please cite: UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity
