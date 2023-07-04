@@ -1,7 +1,7 @@
 # [UniDL4BioPep](https://nepc2pvmzy.us-east-1.awsapprunner.com/)
 
 ### The implementation of the paper  [Du, Z., Ding, X., Xu, Y., & Li, Y. (2023).UniDL4BioPep: a universal deep learning architecture for binary classification in peptide bioactivity. Briefings in Bioinformatics, bbad135.](https://www.researchgate.net/publication/369832351_UniDL4BioPep_a_universal_deep_learning_architecture_for_binary_classification_in_peptide_bioactivity)
-Updates: Xingjian Ding release the PyTorch version of [UniDL4BioPep-ASL](https://github.com/David-Dingle/UniDL4BioPep_ASL_PyTorch). This method employed another loss function (asymmetric loss function, modified version of Focal loss function), which have the ability to conduct tunning both positive and negative sides at the same time.
+Updates: Xingjian Ding release the PyTorch version of [UniDL4BioPep-ASL](https://github.com/David-Dingle/UniDL4BioPep_ASL_PyTorch) for imbalanced dataset. This method employed another loss function (asymmetric loss function, modified version of Focal loss function), which has the ability to conduct tunning both positive and negative sides at the same time.
 
 2023-07-04 updates: we re-design the template file (Pretrained_model_usage_template.ipynb). Now, it  can automatically use your GPU resource for peptide embedding and model prediction acceleration. Thanks for any feedback in this projects. 
 
@@ -9,16 +9,16 @@ Updates: Xingjian Ding release the PyTorch version of [UniDL4BioPep-ASL](https:/
 
 Updates:  We add an advanced version (UniDL4BioPep-FL) employing focal loss function for imbalanced dataset and a template for your usage (UniDL4BioPep_FL_template_for_other_bioactivity.ipynb).
 
-Usage of UniDL4BioPep-FL: Please selelct your minority group as positive group (labeled as 1) and majority group as negative group (labeled as 0); suggestions for hyparameter tunning: gamma(0,1,2,3,4,5) and pos_weight (,0.1,0.2,...1.0) or no need to speficfy pos_weight. 
+Usage of **UniDL4BioPep-FL** for **Imbalanced dataset**: Please select your minority group as a positive group (labeled as 1) and majority group as a negative group (labeled as 0); suggestions for hyperparameter tunning: gamma(0,1,2,3,4,5) and pos_weight (,0.1,0.2,...1.0) or no need to specify pos_weight. 
 
-Notice: The model can also be used for multiclass classificaiton(we adopt softmax function at the last output layer).
+Notice: The model can also be used for multiclass classification (we adopt the softmax function at the last output layer), so you can just simply change the output layer node numbers. (feel free to reach out to me or submit your question in the Issue part.)
 
-Updates: The webserver of the advanced 26 model are available at https://nepc2pvmzy.us-east-1.awsapprunner.com/; Webserver development repository are available at UniDL4BioPep_webserver https://github.com/dzjxzyd/UniDL4BioPep_web_server. 
+Updates: The web server with the advanced 26 models is available at https://nepc2pvmzy.us-east-1.awsapprunner.com/; the Webserver development repository is available at [UniDL4BioPep_webserver](https://github.com/dzjxzyd/UniDL4BioPep_web_server). 
 
 **Notice: UniDL4BioPep is ONLY freely available for academic research; for commercial usage, please contact us**, zhenjiao@ksu.edu; xjding@ksu.edu; yonghui@ksu.edu;
 
-If the contents are useful to you, Please kindly Star it and Cite it.
-Please cite: UniDL4BioPep: A universal deep learning architecture for binary classification in peptide bioactivity
+If the contents are useful to you, Please kindly **Star** it and **Cite** it.
+Please cite as: _Du, Z., Ding, X., Xu, Y., & Li, Y. (2023).UniDL4BioPep: a universal deep learning architecture for binary classification in peptide bioactivity. Briefings in Bioinformatics, bbad135._
 
 
 ## Requirements
