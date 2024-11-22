@@ -3,6 +3,11 @@
 ### The implementation of the paper  [Du, Z., Ding, X., Xu, Y., & Li, Y. (2023).UniDL4BioPep: a universal deep learning architecture for binary classification in peptide bioactivity. Briefings in Bioinformatics, bbad135.](https://www.researchgate.net/publication/369832351_UniDL4BioPep_a_universal_deep_learning_architecture_for_binary_classification_in_peptide_bioactivity)
 Updates: Xingjian Ding release the PyTorch version of [UniDL4BioPep-ASL](https://github.com/David-Dingle/UniDL4BioPep_ASL_PyTorch) for imbalanced dataset. This method employed another loss function (asymmetric loss function, modified version of Focal loss function), which has the ability to conduct tunning both positive and negative sides at the same time.
 
+
+2024-11-21 updates: all the datasets used in this study are uploaded into the corresponding folders and label 1 means the positive in this properties (for example: 1 is toxic, 0 is non-toxic; 1 is allergenic and 0 is non-allergenic; 1 is bitter and 0 is non-bitter; 1 is antimicrobial and 0 is non-antimicrobial, etc.) The training and test datasets are following the original dataset division of our referneces, if there is only one dataset inside the folder, that means the dataset division was not provided by the original refernece. 
+Beyond the original 20 datasets, we add two more datasets (allergenic protein and peptides, and Cell penetrating peptides), both models are also developed with UniDL4BioPep model architecture and available at our webserver. 
+
+
 2024-01-06 updates: we add the protability information to the prediction results, you will get both active&non-active and a protability (0.98) to indicate the probability our model predict. Allow you to be more easier to access to the model's results. (Please upload your file and then make prediction, you will get the new features) ! 
 
 2023-07-04 updates: we re-design the template file (Pretrained_model_usage_template.ipynb). Now, it  can automatically use your GPU resource for peptide embedding and model prediction acceleration. Thanks for any feedback in this projects. 
