@@ -1,5 +1,4 @@
-# [UniDL4BioPep](https://nepc2pvmzy.us-east-1.awsapprunner.com/)
-
+# UniDL4BioPep
 The implementation of the paper  [Du, Z., Ding, X., Xu, Y., & Li, Y. (2023).UniDL4BioPep: a universal deep learning architecture for binary classification in peptide bioactivity. Briefings in Bioinformatics, bbad135.](https://www.researchgate.net/publication/369832351_UniDL4BioPep_a_universal_deep_learning_architecture_for_binary_classification_in_peptide_bioactivity)
 webserver atailable at [server_link](https://nepc2pvmzy.us-east-1.awsapprunner.com/)
 
