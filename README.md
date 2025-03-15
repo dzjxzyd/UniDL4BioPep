@@ -21,7 +21,7 @@ Usage of **UniDL4BioPep-FL** for **Imbalanced dataset**: Please select your mino
 
 Notice: The model can also be used for multiclass classification (we adopt the softmax function at the last output layer), so you can just simply change the output layer node numbers. (feel free to reach out to me or submit your question in the Issue part.)
 
-Updates: The web server with the advanced 26 models is available at https://nepc2pvmzy.us-east-1.awsapprunner.com/; the Webserver development repository is available at [UniDL4BioPep_webserver](https://github.com/dzjxzyd/UniDL4BioPep_web_server). 
+Updates: The web server with the advanced 26 models is available at https://nepc2pvmzy.us-east-1.awsapprunner.com/; the Webserver development repository is available at [UniDL4BioPep_web_server](https://github.com/dzjxzyd/UniDL4BioPep_web_server). 
 
 **Notice: UniDL4BioPep is ONLY freely available for academic research; for commercial usage, please contact us**, zhenjiao@ksu.edu; xjding@ksu.edu; yonghui@ksu.edu;
 
